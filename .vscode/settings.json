@@ -2,5 +2,6 @@
     "files.associations": {
         "sumofdivisors": "c",
         "math.h": "c"
-    }
+    },
+    "debug.terminal.clearBeforeReusing": true
 }
