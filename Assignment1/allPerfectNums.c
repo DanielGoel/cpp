@@ -1,22 +1,23 @@
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
+int getPerfectNumbers(int j);
+
 int main(){
-    printf("the perfect numbers are: ");
-    int n, sum, remainder;
 
-
-    for (n=0; n<10000; n++){
-
-
-        for (int i=1; i<n; i++){
-            remainder= n%i;
-            if (remainder==0)
-                sum += i;   
+    int remainder;
+printf("the perfect numbers are: ");
+for(int j=0; j<10000; j++){
+        int sum=0;
+    for (int i=1; i<j; i++){
+        remainder= j%i;
+        
+        if (remainder==0){
+            sum += i;
         }
-
-        if (sum==n)
-            printf(" %d",sum);
-    }
-    return 0;
+}
+    if (sum==j)
+    printf("%d ", j);
+}
+return 0;
 }
