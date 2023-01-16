@@ -3,5 +3,9 @@
         "sumofdivisors": "c",
         "math.h": "c"
     },
+<<<<<<< HEAD
     "debug.terminal.clearBeforeReusing": true
+=======
+    "C_Cpp.errorSquiggles": "enabled"
+>>>>>>> e6c2baf468061abf40846dfd0886765703300490
 }
